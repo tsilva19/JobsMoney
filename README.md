@@ -21,6 +21,19 @@
   <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
 </p>
 
+
+## 🚀 GETSTART
+
+Para iniciar o Projeto :
+
+- Tenha NODEJS instalado
+- instale no Diretorio as blibliotecas do NODEMODULES com o comando `npm install`
+- dê start na aplicação com o comando `npm run dev`
+- NodeJS
+- EJS
+- Express
+- SQLite
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

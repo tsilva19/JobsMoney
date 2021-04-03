@@ -14,13 +14,30 @@ const profile ={
 
 }
 
-const jobs = []
+const jobs = [
+{
+    id: 1,
+    name: "Pizzaria Guloso",
+    "daily-hours": 2,
+    "total-hours": 60,
+    created_at: Date.now()
+
+},
+{
+    id:2,
+    name: "OneTwo Project",
+    "daily-hours": 3,
+    "total-hours": 47,
+    created_at: Date.now()
+
+}
+]
 
 
 routes.get('/', (request, response) =>{
     console.log('Acessando index')
 
-    return response.render(views + "index")
+    return response.render(views + "index", {jobs})
 })
 
 routes.get('/job', (req, res) => res.render(views + "job"));
