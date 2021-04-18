@@ -6,7 +6,7 @@ module.exports ={
     async index(request, response){
         //ajuste no job 
         // calculo de tempo restante
-        const jobs = Job.get();
+        const jobs = await Job.get();
         const profile = await Profile.get();
 
         let statusCount = {
