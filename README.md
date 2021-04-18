@@ -21,6 +21,21 @@
   <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
 </p>
 
+
+## 🚀 GETSTART
+
+Para iniciar o Projeto :
+
+- Tenha NODEJS instalado
+- instale no Diretorio as blibliotecas do NODEMODULES com o comando `npm install`
+- Comando para iniciar Banco de dados e criar tabela apenas uma vez `npm run init-db`
+- dê start na aplicação com o comando `npm run dev`
+- INSTALAR O BEEKEEPER PARA VER O SQLite
+- NodeJS
+- EJS
+- Express
+- SQLite
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
